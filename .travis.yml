@@ -4,7 +4,7 @@ services:
   - docker
 
 script:
-  - docker build -t grundrausch3n/ergw-docker-base
+  - docker build -t grundrausch3n/ergw-docker-base .
 
 after_success:
   - docker login -e="$DOCKER_EMAIL" -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD";
