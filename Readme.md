@@ -2,4 +2,6 @@
 
 [![Build Status](https://travis-ci.org/travelping/ergw-docker-base.svg?branch=master)](https://travis-ci.org/travelping/ergw-docker-base)
 
-This repository contain the recipe to build the base container to run erlang-applications for erGW
+This repository contains the `Dockerfile` to build a base container image to
+run erlang-applications for erGW. The image is autmatically build in
+[docker hub](https://hub.docker.com/r/ergw/ergw-docker-base/).
